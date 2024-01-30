@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>
+    <script defer src="script.js"></script>
+    <title>The Circle Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body background="LandingPageBackground(Animation).jpg">
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/index.html" id="navbar__logo">PROJECT CIRCLE</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <!-- Menu -->
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="/index.html" class="navbar__links"> Home </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/what_is_circle.html" class="navbar__links"> What is Project Circle? </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/how_to_play.html" class="navbar__links"> How to play </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <div class="main">
+        <div class="main__container">
+            <main id="swup" class="transition-fade">
+                   <!--Images Section-->
+                   <div class="character_KingSweet">
+                        <img src="Images/KingSweet(transparents).png" alt="" class="King_Sweet">
+                    </div>
+
+                    <div class="character_Fernando">
+                        <img src="Images/Fernando(transparent).png" alt="" class="Fernando">
+                    </div>
+
+                    <div class="character_Robbie_and_Lola">
+                        <img src="Images/Robbie&Lola(transparent).png" alt="" class="Robbie_and_Lola">
+                    </div>
+            
+                    <div class="main__content">
+                        <h1> Welcome to The Circle Project </h1>
+                        <h2> Looking for multiplayer options this Summer? We gotchu! </h2>
+                        <h2>Download our most recent gaming project here.</h2>
+                        <button onClick="OpenURL('https://github.com/Luijma/The-Circle/actions/runs/2595012633')" class="btn" class="transition-swipe">Download</button>   
+                    </div>
+                        <!--Images Section-->
+                         <div class="character_Jack">
+                            <img src="Images/JackDarkStone_Avatar_transparent_1.png" alt="" class="Jack">
+                        </div>
+
+                        <div class="character_Lucia">
+                            <img src="Images/Lucia(transparent).png" alt="" class="Lucia">
+                        </div>
+
+                        <div class="character_RedTom">
+                            <img src="Images/RedTom(transparents).png" alt="" class="Red_Tom">
+                        </div>
+                </main>
+            </div>
+            <!--</div>-->
+        </div>
+    </div>
+    <!-- Footer Section -->
+    <div class="footer__container">
+        <a href="/index.html" id="footer__logo">PROJECT CIRCLE</a>
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+                <div class="footer__link-items">
+                    <h1>Resources</h1>
+                    <a href="/Abous_Us.html"> Abous Us </a>
+                    <a href="/contact.html"> Contacts </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>  
+</body>
+</html>
